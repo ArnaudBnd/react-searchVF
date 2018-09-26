@@ -3,6 +3,11 @@ import { withRouter } from 'react-router'
 import NavItem from './navItem'
 
 class NavBar extends Component {
+  /**
+   * Create Link Item
+   * @param intem, index
+   * @return {Component} NavItem
+   */
   createLinkItem(item, index) {
     return <NavItem key={item.title + index} href={item.href} title={item.title} />
   }

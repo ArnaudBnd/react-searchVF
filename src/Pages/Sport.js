@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Sport extends Component {
   render() {
     return (
-      <li>Voici la Sport page</li>
+      <h1>Voici la Sport page</h1>
     )
   }
 }
